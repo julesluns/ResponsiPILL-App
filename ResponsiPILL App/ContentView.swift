@@ -80,7 +80,7 @@ struct ContentView: View {
                         Spacer()
                         
                         NavigationLink(destination: Journal()) {
-                            Text("Journal")
+                            Text("Hi Journal")
                             //                                .padding([.top, .trailing])
                         }
                         Spacer()
@@ -96,4 +96,3 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
-    
